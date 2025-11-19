@@ -3,30 +3,35 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    title: "Real-Time Data Pipeline",
-    description: "Built a scalable streaming pipeline using Kafka and Spark to process millions of events per day with sub-second latency.",
-    tags: ["Kafka", "Spark", "Python", "AWS"],
+    title: "Enterprise Data Warehouse & ETL Pipelines",
+    description:
+      "Designed and implemented a data warehouse with clean ETL pipelines for integrating multiple data sources, enabling faster reporting and analytics.",
+    tags: ["Data Warehouse", "ETL", "SQL", "Python"],
     gradient: "from-primary/20 to-secondary/20",
   },
   {
-    title: "Cloud Data Warehouse",
-    description: "Designed and implemented a multi-source data warehouse on Snowflake with dbt for transformation and orchestration.",
-    tags: ["Snowflake", "dbt", "Airflow", "SQL"],
+    title: "ChatMate – Real-Time Chat Application",
+    description:
+      "Built a Facebook-style real-time chat app with authentication, user profiles, and a modern UI using ASP.NET Core MVC and SignalR.",
+    tags: ["ASP.NET Core", "SignalR", "MVC", "SQL Server"],
     gradient: "from-secondary/20 to-accent/20",
   },
   {
-    title: "ETL Automation Framework",
-    description: "Developed a reusable ETL framework that reduced pipeline development time by 60% and improved data quality monitoring.",
-    tags: ["Python", "Airflow", "Docker", "PostgreSQL"],
+    title: "Nepali License Plate Detection",
+    description:
+      "Developed a two-stage Nepali license plate detection and character recognition system using YOLO and OCR for real-time traffic monitoring.",
+    tags: ["YOLO", "Computer Vision", "Python", "OpenCV"],
     gradient: "from-accent/20 to-primary/20",
   },
   {
-    title: "Analytics Dashboard Pipeline",
-    description: "Created end-to-end data pipeline feeding real-time dashboards for executive reporting with automated data quality checks.",
-    tags: ["BigQuery", "Python", "Looker", "GCP"],
+    title: "Movie Recommendation System – Flix Picks",
+    description:
+      "Created a movie recommendation system using content-based and collaborative filtering with CountVectorizer and cosine similarity.",
+    tags: ["Python", "Pandas", "Machine Learning", "Recommendation System"],
     gradient: "from-primary/20 to-accent/20",
   },
 ];
+
 
 const Projects = () => {
   return (

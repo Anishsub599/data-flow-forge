@@ -2,13 +2,13 @@ import { Database, Cloud, Code2, GitBranch, Boxes, Workflow } from "lucide-react
 
 const techStack = [
   { icon: Code2, name: "Python", color: "text-primary" },
+
   { icon: Database, name: "SQL", color: "text-secondary" },
+  { icon: Boxes, name: "Pandas", color: "text-accent" },
   { icon: Workflow, name: "Apache Spark", color: "text-accent" },
-  { icon: GitBranch, name: "Airflow", color: "text-primary" },
-  { icon: Cloud, name: "Kafka", color: "text-secondary" },
-  { icon: Database, name: "Snowflake", color: "text-accent" },
-  { icon: Cloud, name: "AWS/Azure/GCP", color: "text-primary" },
-  { icon: Boxes, name: "dbt", color: "text-secondary" },
+ 
+  { icon: Code2, name: "ASP.NET", color: "text-primary" },
+  { icon: Boxes, name: "YOLO", color: "text-secondary" }
 ];
 
 const About = () => {
@@ -41,17 +41,9 @@ const About = () => {
             <div className="glass-card p-8 rounded-2xl space-y-4">
               <h3 className="text-2xl font-bold text-primary">Data Engineer & Problem Solver</h3>
               <p className="text-muted-foreground leading-relaxed">
-                I'm passionate about designing and implementing robust data infrastructure 
-                that powers data-driven decision making. With expertise in building scalable 
-                ETL pipelines, optimizing data warehouses, and implementing real-time streaming 
-                solutions, I transform raw data into meaningful insights.
+               I design and implement robust data infrastructures that turn raw data into actionable insights. Specializing in scalable ETL pipelines, optimized data warehouses, and real-time streaming, I blend technical expertise with business insight to deliver high-impact, efficient, and scalable data solutions.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
-                My approach combines technical excellence with a deep understanding of business 
-                needs, ensuring that data systems not only perform efficiently but also deliver 
-                tangible value. I thrive on solving complex data challenges and architecting 
-                solutions that scale.
-              </p>
+              
             </div>
           </div>
         </div>

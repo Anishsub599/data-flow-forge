@@ -7,18 +7,14 @@ const skillCategories = [
     color: "primary",
     skills: ["ETL/ELT Pipelines", "Data Modeling", "Stream Processing", "Data Quality"],
   },
+  
   {
-    title: "Databases & Warehousing",
-    icon: Database,
-    color: "secondary",
-    skills: ["PostgreSQL", "Snowflake", "BigQuery", "Data Vault", "Star Schema"],
+  title: "Backend & Web Development",
+  icon: Cloud,
+  color: "secondary",
+  skills: ["ASP.NET", "MVC Architecture", "Authentication & Authorization"],
   },
-  {
-    title: "Cloud & DevOps",
-    icon: Cloud,
-    color: "accent",
-    skills: ["AWS/Azure/GCP", "Docker", "Kubernetes", "Terraform", "CI/CD"],
-  },
+
   {
     title: "Analytics & Visualization",
     icon: BarChart3,

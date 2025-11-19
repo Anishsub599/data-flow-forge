@@ -6,10 +6,10 @@ import { useState } from "react";
 import { toast } from "sonner";
 
 const socialLinks = [
-  { icon: Mail, label: "Email", href: "mailto:your.email@example.com", color: "primary" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com", color: "secondary" },
-  { icon: Github, label: "GitHub", href: "https://github.com", color: "accent" },
-  { icon: Database, label: "Kaggle", href: "https://kaggle.com", color: "primary" },
+  { icon: Mail, label: "Email", href: "mailto:subedianish420@gmail.com", color: "primary" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/anish-subedi-499961309/", color: "secondary" },
+  { icon: Github, label: "GitHub", href: "https://github.com/Anishsub599", color: "accent" },
+  
 ];
 
 const Contact = () => {

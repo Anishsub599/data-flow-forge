@@ -42,8 +42,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            I build scalable data pipelines, optimize ETL processes, and architect 
-            cloud-based solutions that transform complex data into actionable intelligence.
+           I craft scalable data pipelines, streamline ETL workflows, and engineer dynamic ASP.NET web experiences
           </p>
 
           <div className="flex flex-wrap gap-4 justify-center pt-8">
@@ -55,14 +54,15 @@ const Hero = () => {
               View Projects
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button 
+            <a href="/SubediAnish_cV.pdf" download><Button 
               size="lg" 
               variant="outline"
               className="border-primary/50 hover:border-primary hover:bg-primary/10 text-foreground transition-all hover:scale-105"
             >
               <Download className="mr-2 h-5 w-5" />
               Download Resume
-            </Button>
+            </Button></a>
+            
             <Button 
               size="lg" 
               variant="outline"

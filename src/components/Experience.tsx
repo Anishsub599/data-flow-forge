@@ -1,59 +1,51 @@
 import { Briefcase, GraduationCap } from "lucide-react";
 
 const experiences = [
+  
   {
     type: "work",
-    title: "Senior Data Engineer",
-    organization: "Tech Corp",
-    period: "2022 - Present",
+    title: "Data Science Intern",
+    organization: "CodSoft",
+    period: "2023",
     points: [
-      "Architected and deployed cloud-native data pipelines processing 10TB+ daily",
-      "Led migration of legacy ETL systems to modern ELT architecture using dbt and Snowflake",
-      "Reduced data processing costs by 40% through query optimization and resource management",
+      "Worked on data preprocessing, cleaning, and exploratory data analysis using Python and Pandas",
+      "Built basic machine learning models and evaluated their performance on real-world style datasets",
+      "Gained hands-on experience with feature engineering and model deployment concepts",
     ],
   },
   {
     type: "work",
-    title: "Data Engineer",
-    organization: "Data Solutions Inc",
-    period: "2020 - 2022",
+    title: "Researcher",
+    organization: "Kathmandu University",
+    period: "2024 - Present",
     points: [
-      "Developed real-time streaming pipelines using Kafka and Spark for IoT data ingestion",
-      "Implemented data quality frameworks that improved accuracy by 25%",
-      "Mentored junior engineers on best practices for data modeling and pipeline design",
+      
+      "Conducted AI and prompt engineering training sessions for students in different schools",
+      "Delivered AI workshops and training to APF (Armed Police Force), focusing on practical AI use cases",
     ],
   },
   {
     type: "work",
-    title: "Junior Data Engineer",
-    organization: "Analytics Startup",
-    period: "2019 - 2020",
+    title: "KUCC Cup Coordinator",
+    organization: "Kathmandu University Computer Club (KUCC)",
+    period: "Year - Year", // put actual years, e.g., "2023 - 2024"
     points: [
-      "Built and maintained ETL workflows using Python and Airflow",
-      "Created data warehouse schemas supporting business intelligence needs",
-      "Automated data validation processes reducing manual QA time by 60%",
+      "Coordinated KUCC Cup events, managing teams, schedules, and overall event operations",
+      "Collaborated with students, clubs, and faculty to ensure smooth execution of technical and non-technical events",
+      "Handled communication, logistics, and on-ground problem solving during the event",
     ],
   },
   {
     type: "education",
-    title: "M.S. Computer Science",
-    organization: "University Name",
-    period: "2017 - 2019",
+    title: "B.E. in Computer Engineering",
+    organization: "Kathmandu University",
+    period: "2019 - 2024",
     points: [
-      "Specialized in Big Data Systems and Distributed Computing",
-      "Thesis: Optimizing Data Pipeline Performance in Cloud Environments",
+      "Focused on Data Engineering, Machine Learning, and Software Development",
+      "Completed coursework and projects in databases, ASP.NET, computer vision, and data pipelines",
     ],
   },
-  {
-    type: "education",
-    title: "B.S. Computer Engineering",
-    organization: "University Name",
-    period: "2013 - 2017",
-    points: [
-      "Focus on Database Systems and Software Engineering",
-      "Dean's List, GPA: 3.8/4.0",
-    ],
-  },
+
 ];
 
 const Experience = () => {

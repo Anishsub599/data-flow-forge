@@ -46,7 +46,7 @@ const Navigation = () => {
             onClick={() => scrollToSection("#")}
             className="text-2xl font-bold gradient-text hover:scale-105 transition-transform"
           >
-            &lt;DE /&gt;
+            &lt;Anish Subedi \&gt;
           </button>
 
           {/* Desktop Navigation */}
