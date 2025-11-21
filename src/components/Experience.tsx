@@ -39,7 +39,7 @@ const experiences = [
     type: "education",
     title: "B.E. in Computer Engineering",
     organization: "Kathmandu University",
-    period: "2019 - 2024",
+    period: "2021 - 2025",
     points: [
       "Focused on Data Engineering, Machine Learning, and Software Development",
       "Completed coursework and projects in databases, ASP.NET, computer vision, and data pipelines",
